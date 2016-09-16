@@ -21,7 +21,8 @@
                 android:id="@+id/details_poster"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_centerInParent="true"/>
+                android:layout_centerInParent="true"
+                android:layout_alignParentTop="true"/>
 
 
             <TextView
@@ -30,55 +31,64 @@
                 android:textSize="16sp"
                 android:textStyle="bold"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/details_poster"/>
 
             <TextView
                 android:id="@+id/details_year"
                 android:textColor="@color/ano"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/details_title"/>
 
             <TextView
                 android:id="@+id/details_released"
                 android:textColor="@color/ano"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/details_year"/>
 
             <TextView
                 android:id="@+id/details_runtime"
                 android:textColor="@color/ano"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/details_released"/>
 
             <TextView
                 android:id="@+id/details_genre"
                 android:textColor="@color/ano"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/details_runtime"/>
 
             <TextView
                 android:id="@+id/details_director"
                 android:textColor="@color/ano"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/details_genre"/>
 
             <TextView
                 android:id="@+id/details_writer"
                 android:textColor="@color/ano"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/details_director"/>
 
             <TextView
                 android:id="@+id/details_language"
                 android:textColor="@color/ano"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/details_writer" />
 
             <TextView
                 android:id="@+id/details_awards"
                 android:textColor="@color/ano"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/details_language" />
 
 
         </RelativeLayout>
